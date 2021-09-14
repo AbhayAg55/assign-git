@@ -1,5 +1,6 @@
 1.What is a gitignore file and what should it include for a Java project?
-  -> A .gitignore file has a list of files,their extensions, which git must ignore tracking for. These are usually files which aren't useful for the collaborators. Examples of this can be ".exe" or ".class" files. These can also include files which represent our system specific configurations!
+  -> A .gitignore file has a list of files,their extensions, which git must ignore tracking for. These are usually files which aren't useful for the collaborators. Examples of this can be ".exe" or ".class" files. 
+
   -> Going over the ".gitignore" file belonging to this Java project - "assign-git", we see that files that are included in the gitignore file can be broadly categorized in 4 main categories (which can further be divided):
       > Compiled files and packages: compiled ".class" files and packages like ".jar"
       > IDE files: Files used by the Integrated Development Environment to maintain our system paths, like ".ctxt" files.
@@ -10,7 +11,7 @@
 2.What does fast-forward in the Git mean?
   -> In some cases a branch (say testbranch), other than master, might be somewhat ahead of the master. In the case where no conflicting commit are made to the master git will try to automatically merge the testbranch to the master. This scenario is known as a fast-forward in git.
   -> A clear explanation of this can be seen using the images at: https://ariya.io/2013/09/fast-forward-git-merge.
-  -> Ref: ariya.io. (2019). Fast-Forward Git Merge. [online] Available at: https://ariya.io/2013/09/fast-forward-git-merge. 
+  -> Fast-Forward Git Merge. [online] Available at: https://ariya.io/2013/09/fast-forward-git-merge. 
 
 3.Why should you have different branches?
   -> A branch, in git, are a copy of a project on which we build upon. There are many uses of having different branches in git.
